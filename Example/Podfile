@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FEComps_Example', :exclusive => true do
+  pod "FEComps", :path => "../"
+end
+
+target 'FEComps_Tests', :exclusive => true do
+  pod "FEComps", :path => "../"
+
+end

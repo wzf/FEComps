@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BFDE2F14840FB711D89C15 /* FEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A471418B1EAA813548214620 /* FEFileManager.m */; };
+		0FBE9D6061610ECEAA4219D7 /* FEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3875E5FCAFFA82B0851014A4 /* FEHeader.h */; };
+		105FAABB5C3A854E783D17D7 /* NSSortDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */; };
+		10F51DD28C7F1B8DEBA7D3E2 /* UIImage+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */; };
+		1B474C1832C91FE43B968EF9 /* NSSortDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C727AC4A2B598401D90921BE /* NSSortDictionary.h */; };
+		2380766CF7E24433CCCF63A7 /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */; };
+		35BDB00752B854AA611443EA /* UIImageView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */; };
+		38D8509B1DEB21CC03B2CE1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
+		3BCD96D90E256D74707C372E /* NSObject+AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */; };
+		3D7E89D3079D890945C0EDAB /* UIView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */; };
+		41A36AB5020E37EB5DE39BC4 /* FEFunDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 796F941BD64437AF9B0AF795 /* FEFunDefine.h */; };
+		41BB241E9494BB639573961F /* FEBlockDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */; };
+		4A3555BB20C93ABDFECA1903 /* FEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3875E5FCAFFA82B0851014A4 /* FEHeader.h */; };
+		4AE9A6DF4042CC85F41ACB8B /* Pods-FEComps_Tests-FEComps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21313E4649C3DEB4D11ADB4 /* Pods-FEComps_Tests-FEComps-dummy.m */; };
+		5B8711EE02E11F254EEEE8D0 /* UIImage+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D080F157654F9D38212E63 /* UIImage+FETools.m */; };
+		608F0432DC5588644BE1E078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
+		60AAE9EDC42229017BD6A02C /* FEBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD79F1DE932DB31F917192D /* FEBlockDefine.h */; };
+		67EA7AD89D87EC74D70BDD36 /* NSSortDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C727AC4A2B598401D90921BE /* NSSortDictionary.h */; };
+		76D2803A18362446B0BE5A2A /* Pods-FEComps_Example-FEComps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A8BAFDB1B681859D58473E /* Pods-FEComps_Example-FEComps-dummy.m */; };
+		77A9DEA0278A22144FE0F67F /* Pods-FEComps_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC97382DF73A0C1CD3CC3E9 /* Pods-FEComps_Tests-dummy.m */; };
+		7C7BC9480D4D7742ADBCB7EB /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */; };
+		7D08AAE02EB24C5E0E526AF8 /* UIImageView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */; };
+		81CCC61344C096BE8FC845D6 /* UIImageView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */; };
+		872AD27769BDBF2A47CD5F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
+		88E9899DF81A12DFC7EE3F02 /* UIImageView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */; };
+		893309992A260DDAFF5F5CEB /* FEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F646C253E335F5AA9855742 /* FEFileManager.h */; };
+		B368A3CF881914E63F8EAD0B /* FEFunDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 796F941BD64437AF9B0AF795 /* FEFunDefine.h */; };
+		B370ACC5980D637059711018 /* UIView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */; };
+		BD8E75418BA7956231E176ED /* NSObject+AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */; };
+		BE843FCB07145EED54F8FAD9 /* UIImage+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */; };
+		C1DD831F73A30D599A570541 /* UIImage+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D080F157654F9D38212E63 /* UIImage+FETools.m */; };
+		C37B7783F714EE481C9EA41F /* UIView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */; };
+		C7DFC702368E61DCE6545AA3 /* FEBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD79F1DE932DB31F917192D /* FEBlockDefine.h */; };
+		CC3F253F30A103129A90B1BC /* UIView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */; };
+		CD7618EAC2F632361163CC9A /* Pods-FEComps_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62039C45E4C253DB7B2179 /* Pods-FEComps_Example-dummy.m */; };
+		D593CB96A54A5A7B15F3FF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
+		E3695607CB3BC481E0C71CD3 /* FEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A471418B1EAA813548214620 /* FEFileManager.m */; };
+		E6222F87C9821FBED31D0CB3 /* NSSortDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */; };
+		F398E60BE95ADBA5D43D4B6C /* FEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F646C253E335F5AA9855742 /* FEFileManager.h */; };
+		FC26B66505ACEFD701C9DA55 /* FEBlockDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6100F5A7D9936FE64D73ED84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D7F4EAA3D50BD961E98DF;
+			remoteInfo = "Pods-FEComps_Tests-FEComps";
+		};
+		651ECB5A9DAC391606770D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A288AE6CA9E5A938F9B05A;
+			remoteInfo = "Pods-FEComps_Tests-FEComps-FEComps";
+		};
+		8CCA8390F36C24B307BF0F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259A590202D27FB6E2C57FA2;
+			remoteInfo = "Pods-FEComps_Example-FEComps-FEComps";
+		};
+		911E4AEBE8C76D06FE4EBD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD8CA3F0F8C94F5E63672E28;
+			remoteInfo = "Pods-FEComps_Example-FEComps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AlertView.m"; sourceTree = "<group>"; };
+		110348D384A08360E4202B11 /* libPods-FEComps_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A8BAFDB1B681859D58473E /* Pods-FEComps_Example-FEComps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Example-FEComps-dummy.m"; sourceTree = "<group>"; };
+		171FAD4161D7A2403C0A0DCC /* Pods-FEComps_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FEComps_Tests-resources.sh"; sourceTree = "<group>"; };
+		21C56046F9BDD80B15AB9A66 /* Pods-FEComps_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3875E5FCAFFA82B0851014A4 /* FEHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEHeader.h; sourceTree = "<group>"; };
+		409418D21B18EF813C427D92 /* Pods-FEComps_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+AlertView.h"; sourceTree = "<group>"; };
+		4B522EC817FB3AA8F4C9A092 /* Pods-FEComps_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FEComps_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FETools.h"; sourceTree = "<group>"; };
+		54084C9CE2330192F3EBB308 /* Pods-FEComps_Example-FEComps-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Example-FEComps-prefix.pch"; sourceTree = "<group>"; };
+		54B35B6525CDAB7551AD9CD6 /* Pods-FEComps_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D3352C4737559F75829C6B1 /* Pods-FEComps_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		630C2CAAF1B36A29448ADDF2 /* Pods-FEComps_Tests-FEComps-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-FEComps_Tests-FEComps-prefix.pch"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch"; sourceTree = "<group>"; };
+		6A1FDD1D999C8138F5B0C9B8 /* libPods-FEComps_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D138B9B5AA1127C3C6B79F4 /* Pods-FEComps_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FEComps_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EC97382DF73A0C1CD3CC3E9 /* Pods-FEComps_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Tests-dummy.m"; sourceTree = "<group>"; };
+		6F646C253E335F5AA9855742 /* FEFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEFileManager.h; sourceTree = "<group>"; };
+		70620092C73472189DCFB5B8 /* Pods-FEComps_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FEComps_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		752322CA295F73EE9133D0F7 /* Pods-FEComps_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Tests-environment.h"; sourceTree = "<group>"; };
+		795156586F5E88FCEB711FBB /* libPods-FEComps_Example-FEComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Example-FEComps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796F941BD64437AF9B0AF795 /* FEFunDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEFunDefine.h; sourceTree = "<group>"; };
+		7DD79F1DE932DB31F917192D /* FEBlockDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEBlockDefine.h; sourceTree = "<group>"; };
+		8235DA83805F6FC4F7D9E2E2 /* Pods-FEComps_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FEComps_Example-resources.sh"; sourceTree = "<group>"; };
+		82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example-FEComps-Private.xcconfig"; sourceTree = "<group>"; };
+		8356A8922CED8260CDFC352D /* Pods-FEComps_Example-FEComps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example-FEComps.xcconfig"; sourceTree = "<group>"; };
+		9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FETools.m"; sourceTree = "<group>"; };
+		A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSSortDictionary.m; sourceTree = "<group>"; };
+		A21313E4649C3DEB4D11ADB4 /* Pods-FEComps_Tests-FEComps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-FEComps_Tests-FEComps-dummy.m"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-dummy.m"; sourceTree = "<group>"; };
+		A471418B1EAA813548214620 /* FEFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FEFileManager.m; sourceTree = "<group>"; };
+		A6B90138833C5A77D198C293 /* Pods-FEComps_Tests-FEComps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEComps_Tests-FEComps.xcconfig"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps.xcconfig"; sourceTree = "<group>"; };
+		AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FETools.h"; sourceTree = "<group>"; };
+		B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FEBlockDefine.m; sourceTree = "<group>"; };
+		BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FETools.h"; sourceTree = "<group>"; };
+		BFFE234442932084670DB1D0 /* libPods-FEComps_Tests-FEComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Tests-FEComps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C386634E6227DD35D04D64E4 /* Pods-FEComps_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FEComps_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C46038AE3FE30AF58E63BE9F /* FEComps.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEComps.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C634D3694273AC83DC0F61BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6FEBC71389E95C215299157 /* FEComps.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEComps.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C727AC4A2B598401D90921BE /* NSSortDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSSortDictionary.h; sourceTree = "<group>"; };
+		CEF047834E0A41C54FBBADFB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4B490070A57B480AA35C714 /* Pods-FEComps_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Example-environment.h"; sourceTree = "<group>"; };
+		E0D080F157654F9D38212E63 /* UIImage+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FETools.m"; sourceTree = "<group>"; };
+		E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FETools.m"; sourceTree = "<group>"; };
+		E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEComps_Tests-FEComps-Private.xcconfig"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-Private.xcconfig"; sourceTree = "<group>"; };
+		FE62039C45E4C253DB7B2179 /* Pods-FEComps_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3E07269626F16B43B705EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D8509B1DEB21CC03B2CE1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B95797514F4D784E1EFD0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593CB96A54A5A7B15F3FF44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8023E9E17378C063120357E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872AD27769BDBF2A47CD5F22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C2ED0913A751D67AB4AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608F0432DC5588644BE1E078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5399EC8F600F12535EBCC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5487D99E0B907C7EF31EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025549307A714683B07FCBB1 /* FEComps */ = {
+			isa = PBXGroup;
+			children = (
+				61CC8665C64F001D86853240 /* Pod */,
+				B6BDD6E47B3AD1913FC2CA67 /* Support Files */,
+			);
+			name = FEComps;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0C9D416115AD6C3577FADC9B /* CommonDefine */ = {
+			isa = PBXGroup;
+			children = (
+				7DD79F1DE932DB31F917192D /* FEBlockDefine.h */,
+				B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */,
+				796F941BD64437AF9B0AF795 /* FEFunDefine.h */,
+			);
+			path = CommonDefine;
+			sourceTree = "<group>";
+		};
+		107C0359A7CF3ADE838F261B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025549307A714683B07FCBB1 /* FEComps */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		26F0F0AD0EB97027DAB0F708 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C727AC4A2B598401D90921BE /* NSSortDictionary.h */,
+				A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		318E5357547A51C878730748 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C634D3694273AC83DC0F61BB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		431D6D30340EA1851446B21C /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */,
+				065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */,
+			);
+			path = UIAlertView;
+			sourceTree = "<group>";
+		};
+		61CC8665C64F001D86853240 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3C54C158D92569585EAC69A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6E3ED0953F24B357372E105B /* Pods-FEComps_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C386634E6227DD35D04D64E4 /* Pods-FEComps_Tests-acknowledgements.markdown */,
+				4B522EC817FB3AA8F4C9A092 /* Pods-FEComps_Tests-acknowledgements.plist */,
+				6EC97382DF73A0C1CD3CC3E9 /* Pods-FEComps_Tests-dummy.m */,
+				752322CA295F73EE9133D0F7 /* Pods-FEComps_Tests-environment.h */,
+				171FAD4161D7A2403C0A0DCC /* Pods-FEComps_Tests-resources.sh */,
+				5D3352C4737559F75829C6B1 /* Pods-FEComps_Tests.debug.xcconfig */,
+				54B35B6525CDAB7551AD9CD6 /* Pods-FEComps_Tests.release.xcconfig */,
+			);
+			name = "Pods-FEComps_Tests";
+			path = "Target Support Files/Pods-FEComps_Tests";
+			sourceTree = "<group>";
+		};
+		7A71EF3E8C866F11F7947D58 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */,
+				E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		923AF2645D0E8A06AF2D017E = {
+			isa = PBXGroup;
+			children = (
+				CEF047834E0A41C54FBBADFB /* Podfile */,
+				107C0359A7CF3ADE838F261B /* Development Pods */,
+				F197BD57654735467EC8B879 /* Frameworks */,
+				F8BB081D5F4186D52D85B469 /* Products */,
+				F253EEB9C92985728F337969 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C54C158D92569585EAC69A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3875E5FCAFFA82B0851014A4 /* FEHeader.h */,
+				0C9D416115AD6C3577FADC9B /* CommonDefine */,
+				26F0F0AD0EB97027DAB0F708 /* DataModel */,
+				EF779AA6451DBDE759F206FE /* FileManager */,
+				431D6D30340EA1851446B21C /* UIAlertView */,
+				BD2D01B1EBEE902B34924970 /* UIImage */,
+				7A71EF3E8C866F11F7947D58 /* UIImageView */,
+				EF3ACDE0CE0ED72DBD8F7803 /* UIView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B6BDD6E47B3AD1913FC2CA67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8356A8922CED8260CDFC352D /* Pods-FEComps_Example-FEComps.xcconfig */,
+				82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */,
+				12A8BAFDB1B681859D58473E /* Pods-FEComps_Example-FEComps-dummy.m */,
+				54084C9CE2330192F3EBB308 /* Pods-FEComps_Example-FEComps-prefix.pch */,
+				A6B90138833C5A77D198C293 /* Pods-FEComps_Tests-FEComps.xcconfig */,
+				E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */,
+				A21313E4649C3DEB4D11ADB4 /* Pods-FEComps_Tests-FEComps-dummy.m */,
+				630C2CAAF1B36A29448ADDF2 /* Pods-FEComps_Tests-FEComps-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-FEComps_Example-FEComps";
+			sourceTree = "<group>";
+		};
+		BD2D01B1EBEE902B34924970 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */,
+				E0D080F157654F9D38212E63 /* UIImage+FETools.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		BE763E2070B7A091814E0328 /* Pods-FEComps_Example */ = {
+			isa = PBXGroup;
+			children = (
+				70620092C73472189DCFB5B8 /* Pods-FEComps_Example-acknowledgements.markdown */,
+				6D138B9B5AA1127C3C6B79F4 /* Pods-FEComps_Example-acknowledgements.plist */,
+				FE62039C45E4C253DB7B2179 /* Pods-FEComps_Example-dummy.m */,
+				D4B490070A57B480AA35C714 /* Pods-FEComps_Example-environment.h */,
+				8235DA83805F6FC4F7D9E2E2 /* Pods-FEComps_Example-resources.sh */,
+				21C56046F9BDD80B15AB9A66 /* Pods-FEComps_Example.debug.xcconfig */,
+				409418D21B18EF813C427D92 /* Pods-FEComps_Example.release.xcconfig */,
+			);
+			name = "Pods-FEComps_Example";
+			path = "Target Support Files/Pods-FEComps_Example";
+			sourceTree = "<group>";
+		};
+		EF3ACDE0CE0ED72DBD8F7803 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */,
+				9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		EF779AA6451DBDE759F206FE /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				6F646C253E335F5AA9855742 /* FEFileManager.h */,
+				A471418B1EAA813548214620 /* FEFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		F197BD57654735467EC8B879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318E5357547A51C878730748 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F253EEB9C92985728F337969 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE763E2070B7A091814E0328 /* Pods-FEComps_Example */,
+				6E3ED0953F24B357372E105B /* Pods-FEComps_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8BB081D5F4186D52D85B469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6FEBC71389E95C215299157 /* FEComps.bundle */,
+				C46038AE3FE30AF58E63BE9F /* FEComps.bundle */,
+				110348D384A08360E4202B11 /* libPods-FEComps_Example.a */,
+				795156586F5E88FCEB711FBB /* libPods-FEComps_Example-FEComps.a */,
+				6A1FDD1D999C8138F5B0C9B8 /* libPods-FEComps_Tests.a */,
+				BFFE234442932084670DB1D0 /* libPods-FEComps_Tests-FEComps.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E824221EA5D344D63CC8498 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFC702368E61DCE6545AA3 /* FEBlockDefine.h in Headers */,
+				F398E60BE95ADBA5D43D4B6C /* FEFileManager.h in Headers */,
+				B368A3CF881914E63F8EAD0B /* FEFunDefine.h in Headers */,
+				4A3555BB20C93ABDFECA1903 /* FEHeader.h in Headers */,
+				3BCD96D90E256D74707C372E /* NSObject+AlertView.h in Headers */,
+				67EA7AD89D87EC74D70BDD36 /* NSSortDictionary.h in Headers */,
+				10F51DD28C7F1B8DEBA7D3E2 /* UIImage+FETools.h in Headers */,
+				88E9899DF81A12DFC7EE3F02 /* UIImageView+FETools.h in Headers */,
+				C37B7783F714EE481C9EA41F /* UIView+FETools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A5A74F675B0ABFAFCB612F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AAE9EDC42229017BD6A02C /* FEBlockDefine.h in Headers */,
+				893309992A260DDAFF5F5CEB /* FEFileManager.h in Headers */,
+				41A36AB5020E37EB5DE39BC4 /* FEFunDefine.h in Headers */,
+				0FBE9D6061610ECEAA4219D7 /* FEHeader.h in Headers */,
+				BD8E75418BA7956231E176ED /* NSObject+AlertView.h in Headers */,
+				1B474C1832C91FE43B968EF9 /* NSSortDictionary.h in Headers */,
+				BE843FCB07145EED54F8FAD9 /* UIImage+FETools.h in Headers */,
+				7D08AAE02EB24C5E0E526AF8 /* UIImageView+FETools.h in Headers */,
+				B370ACC5980D637059711018 /* UIView+FETools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		259A590202D27FB6E2C57FA2 /* Pods-FEComps_Example-FEComps-FEComps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67C499207BD5F021BCC0165 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps-FEComps" */;
+			buildPhases = (
+				B1D40112E83DD33112D00C50 /* Sources */,
+				B5399EC8F600F12535EBCC7E /* Frameworks */,
+				FFCE268C5EA462183E063D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FEComps_Example-FEComps-FEComps";
+			productName = "Pods-FEComps_Example-FEComps-FEComps";
+			productReference = C46038AE3FE30AF58E63BE9F /* FEComps.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3C9DF9B8BFA438A41D524332 /* Pods-FEComps_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABBD8540ABAB32AAC29EE66 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example" */;
+			buildPhases = (
+				BF522AA6A8A2B4ED273AED83 /* Sources */,
+				2A3E07269626F16B43B705EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E864FE7CA63D077E5F394A /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Example";
+			productName = "Pods-FEComps_Example";
+			productReference = 110348D384A08360E4202B11 /* libPods-FEComps_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0A288AE6CA9E5A938F9B05A /* Pods-FEComps_Tests-FEComps-FEComps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629D9CA748915992DE6885A8 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps-FEComps" */;
+			buildPhases = (
+				44DE604D170C1253D645CE32 /* Sources */,
+				FE5487D99E0B907C7EF31EC2 /* Frameworks */,
+				0755320EAE86D131CBF2027D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FEComps_Tests-FEComps-FEComps";
+			productName = "Pods-FEComps_Tests-FEComps-FEComps";
+			productReference = C6FEBC71389E95C215299157 /* FEComps.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B38D7F4EAA3D50BD961E98DF /* Pods-FEComps_Tests-FEComps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30838907862560956134A552 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps" */;
+			buildPhases = (
+				5A8E68155E2AB7761D8DE588 /* Sources */,
+				5B95797514F4D784E1EFD0A6 /* Frameworks */,
+				85A5A74F675B0ABFAFCB612F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD5AAFC3104429625BA9867 /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Tests-FEComps";
+			productName = "Pods-FEComps_Tests-FEComps";
+			productReference = BFFE234442932084670DB1D0 /* libPods-FEComps_Tests-FEComps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D10F1C2DBAAB966DBDE98DB9 /* Pods-FEComps_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB68549634FA2625A8AA028 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests" */;
+			buildPhases = (
+				62CA151A4E678EAD14C94CCD /* Sources */,
+				812C2ED0913A751D67AB4AF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09839F4890C629A5E5C06B0C /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Tests";
+			productName = "Pods-FEComps_Tests";
+			productReference = 6A1FDD1D999C8138F5B0C9B8 /* libPods-FEComps_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD8CA3F0F8C94F5E63672E28 /* Pods-FEComps_Example-FEComps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546778DA2AA8AB4F2398FF24 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps" */;
+			buildPhases = (
+				E21F1744F2BE7233FC33F9D8 /* Sources */,
+				8023E9E17378C063120357E1 /* Frameworks */,
+				1E824221EA5D344D63CC8498 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C2690C9A81C39657DFD78D /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Example-FEComps";
+			productName = "Pods-FEComps_Example-FEComps";
+			productReference = 795156586F5E88FCEB711FBB /* libPods-FEComps_Example-FEComps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA22EEBB80ECB043D5D4FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D2AEF85F861CA66972D3A256 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 923AF2645D0E8A06AF2D017E;
+			productRefGroup = F8BB081D5F4186D52D85B469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9DF9B8BFA438A41D524332 /* Pods-FEComps_Example */,
+				FD8CA3F0F8C94F5E63672E28 /* Pods-FEComps_Example-FEComps */,
+				259A590202D27FB6E2C57FA2 /* Pods-FEComps_Example-FEComps-FEComps */,
+				D10F1C2DBAAB966DBDE98DB9 /* Pods-FEComps_Tests */,
+				B38D7F4EAA3D50BD961E98DF /* Pods-FEComps_Tests-FEComps */,
+				B0A288AE6CA9E5A938F9B05A /* Pods-FEComps_Tests-FEComps-FEComps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0755320EAE86D131CBF2027D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCE268C5EA462183E063D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DE604D170C1253D645CE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8E68155E2AB7761D8DE588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BB241E9494BB639573961F /* FEBlockDefine.m in Sources */,
+				04BFDE2F14840FB711D89C15 /* FEFileManager.m in Sources */,
+				2380766CF7E24433CCCF63A7 /* NSObject+AlertView.m in Sources */,
+				105FAABB5C3A854E783D17D7 /* NSSortDictionary.m in Sources */,
+				4AE9A6DF4042CC85F41ACB8B /* Pods-FEComps_Tests-FEComps-dummy.m in Sources */,
+				C1DD831F73A30D599A570541 /* UIImage+FETools.m in Sources */,
+				81CCC61344C096BE8FC845D6 /* UIImageView+FETools.m in Sources */,
+				3D7E89D3079D890945C0EDAB /* UIView+FETools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CA151A4E678EAD14C94CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A9DEA0278A22144FE0F67F /* Pods-FEComps_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D40112E83DD33112D00C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF522AA6A8A2B4ED273AED83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7618EAC2F632361163CC9A /* Pods-FEComps_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21F1744F2BE7233FC33F9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26B66505ACEFD701C9DA55 /* FEBlockDefine.m in Sources */,
+				E3695607CB3BC481E0C71CD3 /* FEFileManager.m in Sources */,
+				7C7BC9480D4D7742ADBCB7EB /* NSObject+AlertView.m in Sources */,
+				E6222F87C9821FBED31D0CB3 /* NSSortDictionary.m in Sources */,
+				76D2803A18362446B0BE5A2A /* Pods-FEComps_Example-FEComps-dummy.m in Sources */,
+				5B8711EE02E11F254EEEE8D0 /* UIImage+FETools.m in Sources */,
+				35BDB00752B854AA611443EA /* UIImageView+FETools.m in Sources */,
+				CC3F253F30A103129A90B1BC /* UIView+FETools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09839F4890C629A5E5C06B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FEComps_Tests-FEComps";
+			target = B38D7F4EAA3D50BD961E98DF /* Pods-FEComps_Tests-FEComps */;
+			targetProxy = 6100F5A7D9936FE64D73ED84 /* PBXContainerItemProxy */;
+		};
+		29E864FE7CA63D077E5F394A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FEComps_Example-FEComps";
+			target = FD8CA3F0F8C94F5E63672E28 /* Pods-FEComps_Example-FEComps */;
+			targetProxy = 911E4AEBE8C76D06FE4EBD77 /* PBXContainerItemProxy */;
+		};
+		57C2690C9A81C39657DFD78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FEComps_Example-FEComps-FEComps";
+			target = 259A590202D27FB6E2C57FA2 /* Pods-FEComps_Example-FEComps-FEComps */;
+			targetProxy = 8CCA8390F36C24B307BF0F3D /* PBXContainerItemProxy */;
+		};
+		AFD5AAFC3104429625BA9867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FEComps_Tests-FEComps-FEComps";
+			target = B0A288AE6CA9E5A938F9B05A /* Pods-FEComps_Tests-FEComps-FEComps */;
+			targetProxy = 651ECB5A9DAC391606770D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1224DB3C209458D6EC3A26B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Example-FEComps/Pods-FEComps_Example-FEComps-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		28ED28171FE0D7E17FFA16C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44FE27BE1F0E852A3529AA3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409418D21B18EF813C427D92 /* Pods-FEComps_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A5502BA0DFF4879F13C3130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Example-FEComps/Pods-FEComps_Example-FEComps-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		64406B882003242FAFB36B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B35B6525CDAB7551AD9CD6 /* Pods-FEComps_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E58EA27A1AB43DBCC22EA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8A401140E84E26ADE0DA5C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8F367E8A43C5D4268EE5152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92A8B30DA81066896710F2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D14229C517FCA14E4E78329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B444B0E5487D58E4F733854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C56046F9BDD80B15AB9A66 /* Pods-FEComps_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4FCAB66543E02DB2CCA61CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3352C4737559F75829C6B1 /* Pods-FEComps_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D66D63F67402534E2BF435BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F534B94F3223B418477B7343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30838907862560956134A552 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A8B30DA81066896710F2CE /* Debug */,
+				9D14229C517FCA14E4E78329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546778DA2AA8AB4F2398FF24 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5502BA0DFF4879F13C3130 /* Debug */,
+				1224DB3C209458D6EC3A26B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629D9CA748915992DE6885A8 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps-FEComps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A401140E84E26ADE0DA5C4B /* Debug */,
+				6E58EA27A1AB43DBCC22EA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB68549634FA2625A8AA028 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FCAB66543E02DB2CCA61CA /* Debug */,
+				64406B882003242FAFB36B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AEF85F861CA66972D3A256 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F367E8A43C5D4268EE5152F /* Debug */,
+				28ED28171FE0D7E17FFA16C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67C499207BD5F021BCC0165 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps-FEComps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D63F67402534E2BF435BA /* Debug */,
+				F534B94F3223B418477B7343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABBD8540ABAB32AAC29EE66 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B444B0E5487D58E4F733854C /* Debug */,
+				44FE27BE1F0E852A3529AA3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+}
