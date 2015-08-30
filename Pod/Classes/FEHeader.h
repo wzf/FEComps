@@ -19,5 +19,7 @@
 #import "FEBlockDefine.h"   //block常用定义
 
 #import "NSSortDictionary.h"//排序的dictionary
+#import "FEFileManager.h"   //NSFileManager的工具函数
+
 
 #endif
