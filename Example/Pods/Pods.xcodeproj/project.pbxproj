@@ -7,451 +7,495 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BFDE2F14840FB711D89C15 /* FEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A471418B1EAA813548214620 /* FEFileManager.m */; };
-		0BB2DF631B93FD0B000DE8AA /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2DF5B1B93FD0B000DE8AA /* AESCrypt.m */; };
-		0BB2DF641B93FD0B000DE8AA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2DF5D1B93FD0B000DE8AA /* NSData+Base64.m */; };
-		0BB2DF651B93FD0B000DE8AA /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2DF5F1B93FD0B000DE8AA /* NSData+CommonCrypto.m */; };
-		0BB2DF661B93FD0B000DE8AA /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2DF611B93FD0B000DE8AA /* NSString+Base64.m */; };
-		0FBE9D6061610ECEAA4219D7 /* FEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3875E5FCAFFA82B0851014A4 /* FEHeader.h */; };
-		105FAABB5C3A854E783D17D7 /* NSSortDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */; };
-		10F51DD28C7F1B8DEBA7D3E2 /* UIImage+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */; };
-		1B474C1832C91FE43B968EF9 /* NSSortDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C727AC4A2B598401D90921BE /* NSSortDictionary.h */; };
-		2380766CF7E24433CCCF63A7 /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */; };
-		35BDB00752B854AA611443EA /* UIImageView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */; };
-		38D8509B1DEB21CC03B2CE1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
-		3BCD96D90E256D74707C372E /* NSObject+AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */; };
-		3D7E89D3079D890945C0EDAB /* UIView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */; };
-		41A36AB5020E37EB5DE39BC4 /* FEFunDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 796F941BD64437AF9B0AF795 /* FEFunDefine.h */; };
-		41BB241E9494BB639573961F /* FEBlockDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */; };
-		4A3555BB20C93ABDFECA1903 /* FEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3875E5FCAFFA82B0851014A4 /* FEHeader.h */; };
-		4AE9A6DF4042CC85F41ACB8B /* Pods-FEComps_Tests-FEComps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21313E4649C3DEB4D11ADB4 /* Pods-FEComps_Tests-FEComps-dummy.m */; };
-		5B8711EE02E11F254EEEE8D0 /* UIImage+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D080F157654F9D38212E63 /* UIImage+FETools.m */; };
-		608F0432DC5588644BE1E078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
-		60AAE9EDC42229017BD6A02C /* FEBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD79F1DE932DB31F917192D /* FEBlockDefine.h */; };
-		67EA7AD89D87EC74D70BDD36 /* NSSortDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C727AC4A2B598401D90921BE /* NSSortDictionary.h */; };
-		76D2803A18362446B0BE5A2A /* Pods-FEComps_Example-FEComps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A8BAFDB1B681859D58473E /* Pods-FEComps_Example-FEComps-dummy.m */; };
-		77A9DEA0278A22144FE0F67F /* Pods-FEComps_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC97382DF73A0C1CD3CC3E9 /* Pods-FEComps_Tests-dummy.m */; };
-		7C7BC9480D4D7742ADBCB7EB /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */; };
-		7D08AAE02EB24C5E0E526AF8 /* UIImageView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */; };
-		81CCC61344C096BE8FC845D6 /* UIImageView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */; };
-		872AD27769BDBF2A47CD5F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
-		88E9899DF81A12DFC7EE3F02 /* UIImageView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */; };
-		893309992A260DDAFF5F5CEB /* FEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F646C253E335F5AA9855742 /* FEFileManager.h */; };
-		B368A3CF881914E63F8EAD0B /* FEFunDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 796F941BD64437AF9B0AF795 /* FEFunDefine.h */; };
-		B370ACC5980D637059711018 /* UIView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */; };
-		BD8E75418BA7956231E176ED /* NSObject+AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */; };
-		BE843FCB07145EED54F8FAD9 /* UIImage+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */; };
-		C1DD831F73A30D599A570541 /* UIImage+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D080F157654F9D38212E63 /* UIImage+FETools.m */; };
-		C37B7783F714EE481C9EA41F /* UIView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */; };
-		C7DFC702368E61DCE6545AA3 /* FEBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD79F1DE932DB31F917192D /* FEBlockDefine.h */; };
-		CC3F253F30A103129A90B1BC /* UIView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */; };
-		CD7618EAC2F632361163CC9A /* Pods-FEComps_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62039C45E4C253DB7B2179 /* Pods-FEComps_Example-dummy.m */; };
-		D593CB96A54A5A7B15F3FF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C634D3694273AC83DC0F61BB /* Foundation.framework */; };
-		E3695607CB3BC481E0C71CD3 /* FEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A471418B1EAA813548214620 /* FEFileManager.m */; };
-		E6222F87C9821FBED31D0CB3 /* NSSortDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */; };
-		F398E60BE95ADBA5D43D4B6C /* FEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F646C253E335F5AA9855742 /* FEFileManager.h */; };
-		FC26B66505ACEFD701C9DA55 /* FEBlockDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */; };
+		01F7243A49F0F6048A63D3B6 /* UIView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 058CECECB83332FC8ED20CE5 /* UIView+FETools.m */; };
+		21599464BE8D74438836C309 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BBA139339A2279929A12 /* NSData+Base64.m */; };
+		28FB0FA84D6C18E956EF12F1 /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBA68584404FFE9FD5ED18A /* AESCrypt.h */; };
+		2CC744C04963136CFAF29419 /* FEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B544DFDC32BD45E5D4247305 /* FEFileManager.h */; };
+		2D93823A28111C455D60F622 /* UIImage+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E898826ED9746B42F8312FA /* UIImage+FETools.m */; };
+		2F5FE4912E07A28EB90F8379 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2897C909E8FD0BDED3A086 /* AESCrypt.m */; };
+		2FAEAE1DF591B81468BB67BD /* FEBlockDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD6705E808B66EB75C0439 /* FEBlockDefine.m */; };
+		3B6A57C866EACCB627AE9B9A /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C99B6B6152A171EA4186963 /* NSData+CommonCrypto.m */; };
+		3C497CC4E2C4B2209F7026EC /* FEFunDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 17186AF4A0537A4963E1FA58 /* FEFunDefine.h */; };
+		414C25D67CC60AF34E23620E /* FEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA965E2D92CDB22EDE67586D /* FEFileManager.m */; };
+		54416A210733568B0C73821B /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2897C909E8FD0BDED3A086 /* AESCrypt.m */; };
+		59D5B8044DF5AB6AF2084067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3469F0A2E7E4DAE627CCB39 /* Foundation.framework */; };
+		5C7946C44A909A63E5CC5916 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 56633B304EB40869455AC9C2 /* NSString+Base64.h */; };
+		65122FC184D6A9B0A532D253 /* FEFunDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 17186AF4A0537A4963E1FA58 /* FEFunDefine.h */; };
+		67F086DAFD8E62EB6F0073E2 /* FEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B544DFDC32BD45E5D4247305 /* FEFileManager.h */; };
+		69FB79EDE95D6737003F265E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB800CF8F55A8BC5A0725CB /* UIKit.framework */; };
+		6ACE49A071E719561569FAE5 /* UIImageView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB6B814471A05EF7F0EF681 /* UIImageView+FETools.m */; };
+		6C4009121D6EA90DE1E4E646 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B449625724170156D3DE305 /* NSData+Base64.h */; };
+		72B8459478225D64B92184C7 /* FEBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAA2DF82B9224A558081D24 /* FEBlockDefine.h */; };
+		759FECF1006B8DCA6F01CDD2 /* Pods-FEComps_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C2D2584C7E25EEC80EC13 /* Pods-FEComps_Tests-dummy.m */; };
+		81D11323A950A609158AF42C /* FEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5CD78E4E195763093B6DC5 /* FEHeader.h */; };
+		88748C8238FDABB74D69D62F /* FEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA965E2D92CDB22EDE67586D /* FEFileManager.m */; };
+		90F818D90A0AA8503583C888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3469F0A2E7E4DAE627CCB39 /* Foundation.framework */; };
+		936A85B6CC9168699FA43B44 /* NSSortDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E57197F9AA3A0EB3A6F90B /* NSSortDictionary.h */; };
+		96A72C99BB163D13D9F1B014 /* UIImageView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB6B814471A05EF7F0EF681 /* UIImageView+FETools.m */; };
+		98B9DA729D300CB4310DECDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3469F0A2E7E4DAE627CCB39 /* Foundation.framework */; };
+		99935E31D5E6F6F63E86C8E1 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B449625724170156D3DE305 /* NSData+Base64.h */; };
+		9CDC2BB518762EE1BEC10C05 /* Pods-FEComps_Example-FEComps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3ACED1522C4823C1A71274 /* Pods-FEComps_Example-FEComps-dummy.m */; };
+		9D1014B02E61B57C4CCD8F74 /* UIImage+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E898826ED9746B42F8312FA /* UIImage+FETools.m */; };
+		A1A1971891DA25EF0FB52E03 /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F606F66120D8F36B6B9B5 /* NSObject+AlertView.m */; };
+		A2DF939A97B85D436AB78FEF /* Pods-FEComps_Tests-FEComps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E43474AB23AF65407000F11A /* Pods-FEComps_Tests-FEComps-dummy.m */; };
+		A725B9E2B1813F13A091069D /* Pods-FEComps_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EA704E257FE0EE8C990D1 /* Pods-FEComps_Example-dummy.m */; };
+		AE021DC8C353E970BE50F32E /* NSSortDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56935DF398F25BB657F8A6 /* NSSortDictionary.m */; };
+		AEA9ABDA717FEA9DE8192944 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BBA139339A2279929A12 /* NSData+Base64.m */; };
+		AFE993B4B134A7EF401EF9A8 /* FEBlockDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD6705E808B66EB75C0439 /* FEBlockDefine.m */; };
+		B2AD8E848C105AD6185B20C0 /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBA68584404FFE9FD5ED18A /* AESCrypt.h */; };
+		BAEB09D071F954698B3A46E8 /* UIView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FAEBB3FA76F7C838207B9 /* UIView+FETools.h */; };
+		BF748B7E260BA496091E0AFC /* UIView+FETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 058CECECB83332FC8ED20CE5 /* UIView+FETools.m */; };
+		C6C9F627E83D67A8134A6306 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 56633B304EB40869455AC9C2 /* NSString+Base64.h */; };
+		C6D8AFE5B84FFEC2C45D311B /* UIImage+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = BC748DD527B6F3B0F8E4FDC4 /* UIImage+FETools.h */; };
+		C7319DA8AC8F7D7C199C7A65 /* NSData+CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = C39D90DACF78D4BEEEE31A23 /* NSData+CommonCrypto.h */; };
+		C77B331E8A15057B5C7A5C24 /* NSObject+AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCBBCBD7174481651A38E55 /* NSObject+AlertView.h */; };
+		CA5D7CB032E6FD152096ECC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3469F0A2E7E4DAE627CCB39 /* Foundation.framework */; };
+		CFB78B8BC8306B2FBCFB881C /* NSSortDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56935DF398F25BB657F8A6 /* NSSortDictionary.m */; };
+		D22B87B73C614AFBED1B3855 /* NSObject+AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCBBCBD7174481651A38E55 /* NSObject+AlertView.h */; };
+		D6136B868DB4162C1625151A /* NSData+CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = C39D90DACF78D4BEEEE31A23 /* NSData+CommonCrypto.h */; };
+		D70A627FDB95FC4EF849C6A5 /* UIImageView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F4D8DBB952FD4E45848638 /* UIImageView+FETools.h */; };
+		D862323C86534294C1B14D4E /* FEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5CD78E4E195763093B6DC5 /* FEHeader.h */; };
+		DD36671460F5CEB96FFBAD9E /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C99B6B6152A171EA4186963 /* NSData+CommonCrypto.m */; };
+		E15D5E2B3C53C69FBB9345E3 /* FEBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAA2DF82B9224A558081D24 /* FEBlockDefine.h */; };
+		E5060D4A8C1E6017281408F6 /* UIView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FAEBB3FA76F7C838207B9 /* UIView+FETools.h */; };
+		ED8C123F2D6F950301E00AD8 /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F606F66120D8F36B6B9B5 /* NSObject+AlertView.m */; };
+		EE0382E21917321C45C36884 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D54AD88AB488D9B18023 /* NSString+Base64.m */; };
+		EFA1DD847B97731DCFE57FDE /* UIImage+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = BC748DD527B6F3B0F8E4FDC4 /* UIImage+FETools.h */; };
+		F1B872D69E567051CB99B3CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB800CF8F55A8BC5A0725CB /* UIKit.framework */; };
+		F1D49B37E145E7B20997A3A8 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D54AD88AB488D9B18023 /* NSString+Base64.m */; };
+		F277601CC6396711C479E252 /* UIImageView+FETools.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F4D8DBB952FD4E45848638 /* UIImageView+FETools.h */; };
+		F41066968499BCEC9290CA9C /* NSSortDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E57197F9AA3A0EB3A6F90B /* NSSortDictionary.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6100F5A7D9936FE64D73ED84 /* PBXContainerItemProxy */ = {
+		00CBDC2E2F30E1BE5DF32787 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+			containerPortal = 6EDA3C9D2D9FAEE0B0EFF76F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B38D7F4EAA3D50BD961E98DF;
-			remoteInfo = "Pods-FEComps_Tests-FEComps";
-		};
-		651ECB5A9DAC391606770D88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0A288AE6CA9E5A938F9B05A;
-			remoteInfo = "Pods-FEComps_Tests-FEComps-FEComps";
-		};
-		8CCA8390F36C24B307BF0F3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 259A590202D27FB6E2C57FA2;
+			remoteGlobalIDString = 355F9104B5F5D687772CAFAF;
 			remoteInfo = "Pods-FEComps_Example-FEComps-FEComps";
 		};
-		911E4AEBE8C76D06FE4EBD77 /* PBXContainerItemProxy */ = {
+		90147D1D24ADD1D9195DFFDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+			containerPortal = 6EDA3C9D2D9FAEE0B0EFF76F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD8CA3F0F8C94F5E63672E28;
+			remoteGlobalIDString = 0EFC8A13A2CEAE9B14B245CA;
+			remoteInfo = "Pods-FEComps_Tests-FEComps";
+		};
+		A920BAD1130638737319BC1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EDA3C9D2D9FAEE0B0EFF76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4120E8899E7109BD7E7FB7F2;
+			remoteInfo = "Pods-FEComps_Tests-FEComps-FEComps";
+		};
+		F1C12321BBC91F6E83C810AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EDA3C9D2D9FAEE0B0EFF76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73CAC86A4A15C2A1AFD22C19;
 			remoteInfo = "Pods-FEComps_Example-FEComps";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AlertView.m"; sourceTree = "<group>"; };
-		0BB2DF5A1B93FD0B000DE8AA /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
-		0BB2DF5B1B93FD0B000DE8AA /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
-		0BB2DF5C1B93FD0B000DE8AA /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		0BB2DF5D1B93FD0B000DE8AA /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		0BB2DF5E1B93FD0B000DE8AA /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
-		0BB2DF5F1B93FD0B000DE8AA /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
-		0BB2DF601B93FD0B000DE8AA /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		0BB2DF611B93FD0B000DE8AA /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		110348D384A08360E4202B11 /* libPods-FEComps_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12A8BAFDB1B681859D58473E /* Pods-FEComps_Example-FEComps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Example-FEComps-dummy.m"; sourceTree = "<group>"; };
-		171FAD4161D7A2403C0A0DCC /* Pods-FEComps_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FEComps_Tests-resources.sh"; sourceTree = "<group>"; };
-		21C56046F9BDD80B15AB9A66 /* Pods-FEComps_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3875E5FCAFFA82B0851014A4 /* FEHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEHeader.h; sourceTree = "<group>"; };
-		409418D21B18EF813C427D92 /* Pods-FEComps_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+AlertView.h"; sourceTree = "<group>"; };
-		4B522EC817FB3AA8F4C9A092 /* Pods-FEComps_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FEComps_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FETools.h"; sourceTree = "<group>"; };
-		54084C9CE2330192F3EBB308 /* Pods-FEComps_Example-FEComps-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Example-FEComps-prefix.pch"; sourceTree = "<group>"; };
-		54B35B6525CDAB7551AD9CD6 /* Pods-FEComps_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D3352C4737559F75829C6B1 /* Pods-FEComps_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		630C2CAAF1B36A29448ADDF2 /* Pods-FEComps_Tests-FEComps-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-FEComps_Tests-FEComps-prefix.pch"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch"; sourceTree = "<group>"; };
-		6A1FDD1D999C8138F5B0C9B8 /* libPods-FEComps_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D138B9B5AA1127C3C6B79F4 /* Pods-FEComps_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FEComps_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6EC97382DF73A0C1CD3CC3E9 /* Pods-FEComps_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Tests-dummy.m"; sourceTree = "<group>"; };
-		6F646C253E335F5AA9855742 /* FEFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEFileManager.h; sourceTree = "<group>"; };
-		70620092C73472189DCFB5B8 /* Pods-FEComps_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FEComps_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		752322CA295F73EE9133D0F7 /* Pods-FEComps_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Tests-environment.h"; sourceTree = "<group>"; };
-		795156586F5E88FCEB711FBB /* libPods-FEComps_Example-FEComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Example-FEComps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		796F941BD64437AF9B0AF795 /* FEFunDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEFunDefine.h; sourceTree = "<group>"; };
-		7DD79F1DE932DB31F917192D /* FEBlockDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEBlockDefine.h; sourceTree = "<group>"; };
-		8235DA83805F6FC4F7D9E2E2 /* Pods-FEComps_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FEComps_Example-resources.sh"; sourceTree = "<group>"; };
-		82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example-FEComps-Private.xcconfig"; sourceTree = "<group>"; };
-		8356A8922CED8260CDFC352D /* Pods-FEComps_Example-FEComps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example-FEComps.xcconfig"; sourceTree = "<group>"; };
-		9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FETools.m"; sourceTree = "<group>"; };
-		A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSSortDictionary.m; sourceTree = "<group>"; };
-		A21313E4649C3DEB4D11ADB4 /* Pods-FEComps_Tests-FEComps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-FEComps_Tests-FEComps-dummy.m"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-dummy.m"; sourceTree = "<group>"; };
-		A471418B1EAA813548214620 /* FEFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FEFileManager.m; sourceTree = "<group>"; };
-		A6B90138833C5A77D198C293 /* Pods-FEComps_Tests-FEComps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEComps_Tests-FEComps.xcconfig"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps.xcconfig"; sourceTree = "<group>"; };
-		AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FETools.h"; sourceTree = "<group>"; };
-		B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FEBlockDefine.m; sourceTree = "<group>"; };
-		BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FETools.h"; sourceTree = "<group>"; };
-		BFFE234442932084670DB1D0 /* libPods-FEComps_Tests-FEComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Tests-FEComps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C386634E6227DD35D04D64E4 /* Pods-FEComps_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FEComps_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C46038AE3FE30AF58E63BE9F /* FEComps.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEComps.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C634D3694273AC83DC0F61BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C6FEBC71389E95C215299157 /* FEComps.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEComps.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C727AC4A2B598401D90921BE /* NSSortDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSSortDictionary.h; sourceTree = "<group>"; };
-		CEF047834E0A41C54FBBADFB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D4B490070A57B480AA35C714 /* Pods-FEComps_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Example-environment.h"; sourceTree = "<group>"; };
-		E0D080F157654F9D38212E63 /* UIImage+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FETools.m"; sourceTree = "<group>"; };
-		E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FETools.m"; sourceTree = "<group>"; };
-		E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEComps_Tests-FEComps-Private.xcconfig"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-Private.xcconfig"; sourceTree = "<group>"; };
-		FE62039C45E4C253DB7B2179 /* Pods-FEComps_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Example-dummy.m"; sourceTree = "<group>"; };
+		01D9D54AD88AB488D9B18023 /* NSString+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		058CECECB83332FC8ED20CE5 /* UIView+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FETools.m"; sourceTree = "<group>"; };
+		0AFF792F0AB97907D13EE69C /* Pods-FEComps_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FEComps_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D25A36137641A8C6257E30C /* Pods-FEComps_Tests-FEComps-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-FEComps_Tests-FEComps-prefix.pch"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch"; sourceTree = "<group>"; };
+		10ED188F524FEAC2F1FF188D /* Pods-FEComps_Example-FEComps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example-FEComps.xcconfig"; sourceTree = "<group>"; };
+		11F72F78418CA715E2632C62 /* Pods-FEComps_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FEComps_Tests-resources.sh"; sourceTree = "<group>"; };
+		17186AF4A0537A4963E1FA58 /* FEFunDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEFunDefine.h; sourceTree = "<group>"; };
+		1B5CD78E4E195763093B6DC5 /* FEHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEHeader.h; sourceTree = "<group>"; };
+		1C23F3615F5D7B6E2D7813FC /* Pods-FEComps_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example.release.xcconfig"; sourceTree = "<group>"; };
+		25B997A8C92F7675DBDFCF7E /* libPods-FEComps_Example-FEComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Example-FEComps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C951BB1598F5D802397CFC /* Pods-FEComps_Tests-FEComps-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEComps_Tests-FEComps-Private.xcconfig"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-Private.xcconfig"; sourceTree = "<group>"; };
+		3AB6B814471A05EF7F0EF681 /* UIImageView+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FETools.m"; sourceTree = "<group>"; };
+		3B4CCF44EC1F4EC923C6F717 /* Pods-FEComps_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FEComps_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C99B6B6152A171EA4186963 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		416DCD12AF53BBF1E6CD88EF /* Pods-FEComps_Tests-FEComps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEComps_Tests-FEComps.xcconfig"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps.xcconfig"; sourceTree = "<group>"; };
+		436C5DB4BBD793EE65AF96E8 /* Pods-FEComps_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FEComps_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		442C2D2584C7E25EEC80EC13 /* Pods-FEComps_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Tests-dummy.m"; sourceTree = "<group>"; };
+		4B449625724170156D3DE305 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		4BF5BBA139339A2279929A12 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		4E898826ED9746B42F8312FA /* UIImage+FETools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FETools.m"; sourceTree = "<group>"; };
+		4F3F47EDF0E00E84A0E32463 /* Pods-FEComps_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		51E57197F9AA3A0EB3A6F90B /* NSSortDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSSortDictionary.h; sourceTree = "<group>"; };
+		5615DD3B75DCBFBFD6C813FD /* Pods-FEComps_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FEComps_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56633B304EB40869455AC9C2 /* NSString+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		5B2897C909E8FD0BDED3A086 /* AESCrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		5C3F0CA6740923CC504197D8 /* Pods-FEComps_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FEComps_Example-resources.sh"; sourceTree = "<group>"; };
+		5E99DA8B76757A3FE46B0EBB /* Pods-FEComps_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5FAA2DF82B9224A558081D24 /* FEBlockDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEBlockDefine.h; sourceTree = "<group>"; };
+		633FAEBB3FA76F7C838207B9 /* UIView+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FETools.h"; sourceTree = "<group>"; };
+		64F4D8DBB952FD4E45848638 /* UIImageView+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FETools.h"; sourceTree = "<group>"; };
+		68A07D568FB843C1F0BD577C /* FEComps.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEComps.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEA2A03C52C117F81231A72 /* FEComps.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEComps.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B4C56E9E9EDD357BDE140A /* libPods-FEComps_Tests-FEComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Tests-FEComps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F606F66120D8F36B6B9B5 /* NSObject+AlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AlertView.m"; sourceTree = "<group>"; };
+		7DCBBCBD7174481651A38E55 /* NSObject+AlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+AlertView.h"; sourceTree = "<group>"; };
+		7EB5CBF117CC68964C022B33 /* libPods-FEComps_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C07043BBC1E817F69CC65A0 /* Pods-FEComps_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Example-environment.h"; sourceTree = "<group>"; };
+		AA56935DF398F25BB657F8A6 /* NSSortDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSSortDictionary.m; sourceTree = "<group>"; };
+		ADBA68584404FFE9FD5ED18A /* AESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		AE1E2D39D39515E0C4CA7D75 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B544DFDC32BD45E5D4247305 /* FEFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEFileManager.h; sourceTree = "<group>"; };
+		BC748DD527B6F3B0F8E4FDC4 /* UIImage+FETools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FETools.h"; sourceTree = "<group>"; };
+		BE3ACED1522C4823C1A71274 /* Pods-FEComps_Example-FEComps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Example-FEComps-dummy.m"; sourceTree = "<group>"; };
+		C39D90DACF78D4BEEEE31A23 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		CE5EA704E257FE0EE8C990D1 /* Pods-FEComps_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FEComps_Example-dummy.m"; sourceTree = "<group>"; };
+		D3469F0A2E7E4DAE627CCB39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3682C9C4E6AC0177FA88097 /* libPods-FEComps_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FEComps_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA965E2D92CDB22EDE67586D /* FEFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FEFileManager.m; sourceTree = "<group>"; };
+		DB8CDEFA4887A480AFA06250 /* Pods-FEComps_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Tests-environment.h"; sourceTree = "<group>"; };
+		DCAD6705E808B66EB75C0439 /* FEBlockDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FEBlockDefine.m; sourceTree = "<group>"; };
+		DFEF0EDF2F9D070FA50EA5DA /* Pods-FEComps_Example-FEComps-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example-FEComps-Private.xcconfig"; sourceTree = "<group>"; };
+		E43474AB23AF65407000F11A /* Pods-FEComps_Tests-FEComps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-FEComps_Tests-FEComps-dummy.m"; path = "../Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-dummy.m"; sourceTree = "<group>"; };
+		F55D067A43C55054B6F9D0AE /* Pods-FEComps_Example-FEComps-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FEComps_Example-FEComps-prefix.pch"; sourceTree = "<group>"; };
+		F90A56DC83A94E3A88884B7D /* Pods-FEComps_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FEComps_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB800CF8F55A8BC5A0725CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A3E07269626F16B43B705EF /* Frameworks */ = {
+		11F7B241A43A6489375070C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D8509B1DEB21CC03B2CE1B /* Foundation.framework in Frameworks */,
+				90F818D90A0AA8503583C888 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B95797514F4D784E1EFD0A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D593CB96A54A5A7B15F3FF44 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8023E9E17378C063120357E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				872AD27769BDBF2A47CD5F22 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		812C2ED0913A751D67AB4AF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				608F0432DC5588644BE1E078 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5399EC8F600F12535EBCC7E /* Frameworks */ = {
+		6BBB18242FB56B03DDC31389 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE5487D99E0B907C7EF31EC2 /* Frameworks */ = {
+		74E92067893B7F0B540B5303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82D0992CE52DEA99F9AC92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D5B8044DF5AB6AF2084067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389737DE987E6F5246AB3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5D7CB032E6FD152096ECC3 /* Foundation.framework in Frameworks */,
+				69FB79EDE95D6737003F265E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FA87541ACCC5434E9795C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B9DA729D300CB4310DECDC /* Foundation.framework in Frameworks */,
+				F1B872D69E567051CB99B3CC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		025549307A714683B07FCBB1 /* FEComps */ = {
+		00311B8EC0730DECF415786C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61CC8665C64F001D86853240 /* Pod */,
-				B6BDD6E47B3AD1913FC2CA67 /* Support Files */,
-			);
-			name = FEComps;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		0BB2DF581B93FD0B000DE8AA /* AESCrypt */ = {
-			isa = PBXGroup;
-			children = (
-				0BB2DF5A1B93FD0B000DE8AA /* AESCrypt.h */,
-				0BB2DF5B1B93FD0B000DE8AA /* AESCrypt.m */,
-				0BB2DF5C1B93FD0B000DE8AA /* NSData+Base64.h */,
-				0BB2DF5D1B93FD0B000DE8AA /* NSData+Base64.m */,
-				0BB2DF5E1B93FD0B000DE8AA /* NSData+CommonCrypto.h */,
-				0BB2DF5F1B93FD0B000DE8AA /* NSData+CommonCrypto.m */,
-				0BB2DF601B93FD0B000DE8AA /* NSString+Base64.h */,
-				0BB2DF611B93FD0B000DE8AA /* NSString+Base64.m */,
-			);
-			path = AESCrypt;
-			sourceTree = "<group>";
-		};
-		0C9D416115AD6C3577FADC9B /* CommonDefine */ = {
-			isa = PBXGroup;
-			children = (
-				7DD79F1DE932DB31F917192D /* FEBlockDefine.h */,
-				B0E89CB3AACE97D5E25669D5 /* FEBlockDefine.m */,
-				796F941BD64437AF9B0AF795 /* FEFunDefine.h */,
-			);
-			path = CommonDefine;
-			sourceTree = "<group>";
-		};
-		107C0359A7CF3ADE838F261B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				025549307A714683B07FCBB1 /* FEComps */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		26F0F0AD0EB97027DAB0F708 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				C727AC4A2B598401D90921BE /* NSSortDictionary.h */,
-				A191D06F123C8CCE6DFAB9F6 /* NSSortDictionary.m */,
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		318E5357547A51C878730748 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C634D3694273AC83DC0F61BB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		431D6D30340EA1851446B21C /* UIAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				4A7068E91AF2308FACA4DB03 /* NSObject+AlertView.h */,
-				065B41099D17AADD5A111EE6 /* NSObject+AlertView.m */,
-			);
-			path = UIAlertView;
-			sourceTree = "<group>";
-		};
-		61CC8665C64F001D86853240 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B3C54C158D92569585EAC69A /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		6E3ED0953F24B357372E105B /* Pods-FEComps_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C386634E6227DD35D04D64E4 /* Pods-FEComps_Tests-acknowledgements.markdown */,
-				4B522EC817FB3AA8F4C9A092 /* Pods-FEComps_Tests-acknowledgements.plist */,
-				6EC97382DF73A0C1CD3CC3E9 /* Pods-FEComps_Tests-dummy.m */,
-				752322CA295F73EE9133D0F7 /* Pods-FEComps_Tests-environment.h */,
-				171FAD4161D7A2403C0A0DCC /* Pods-FEComps_Tests-resources.sh */,
-				5D3352C4737559F75829C6B1 /* Pods-FEComps_Tests.debug.xcconfig */,
-				54B35B6525CDAB7551AD9CD6 /* Pods-FEComps_Tests.release.xcconfig */,
-			);
-			name = "Pods-FEComps_Tests";
-			path = "Target Support Files/Pods-FEComps_Tests";
-			sourceTree = "<group>";
-		};
-		7A71EF3E8C866F11F7947D58 /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				BA8DE82DD440ED20F9D15903 /* UIImageView+FETools.h */,
-				E84125EAFC1627495A22A2F5 /* UIImageView+FETools.m */,
-			);
-			path = UIImageView;
-			sourceTree = "<group>";
-		};
-		923AF2645D0E8A06AF2D017E = {
-			isa = PBXGroup;
-			children = (
-				CEF047834E0A41C54FBBADFB /* Podfile */,
-				107C0359A7CF3ADE838F261B /* Development Pods */,
-				F197BD57654735467EC8B879 /* Frameworks */,
-				F8BB081D5F4186D52D85B469 /* Products */,
-				F253EEB9C92985728F337969 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B3C54C158D92569585EAC69A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0BB2DF581B93FD0B000DE8AA /* AESCrypt */,
-				3875E5FCAFFA82B0851014A4 /* FEHeader.h */,
-				0C9D416115AD6C3577FADC9B /* CommonDefine */,
-				26F0F0AD0EB97027DAB0F708 /* DataModel */,
-				EF779AA6451DBDE759F206FE /* FileManager */,
-				431D6D30340EA1851446B21C /* UIAlertView */,
-				BD2D01B1EBEE902B34924970 /* UIImage */,
-				7A71EF3E8C866F11F7947D58 /* UIImageView */,
-				EF3ACDE0CE0ED72DBD8F7803 /* UIView */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B6BDD6E47B3AD1913FC2CA67 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8356A8922CED8260CDFC352D /* Pods-FEComps_Example-FEComps.xcconfig */,
-				82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */,
-				12A8BAFDB1B681859D58473E /* Pods-FEComps_Example-FEComps-dummy.m */,
-				54084C9CE2330192F3EBB308 /* Pods-FEComps_Example-FEComps-prefix.pch */,
-				A6B90138833C5A77D198C293 /* Pods-FEComps_Tests-FEComps.xcconfig */,
-				E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */,
-				A21313E4649C3DEB4D11ADB4 /* Pods-FEComps_Tests-FEComps-dummy.m */,
-				630C2CAAF1B36A29448ADDF2 /* Pods-FEComps_Tests-FEComps-prefix.pch */,
+				10ED188F524FEAC2F1FF188D /* Pods-FEComps_Example-FEComps.xcconfig */,
+				DFEF0EDF2F9D070FA50EA5DA /* Pods-FEComps_Example-FEComps-Private.xcconfig */,
+				BE3ACED1522C4823C1A71274 /* Pods-FEComps_Example-FEComps-dummy.m */,
+				F55D067A43C55054B6F9D0AE /* Pods-FEComps_Example-FEComps-prefix.pch */,
+				416DCD12AF53BBF1E6CD88EF /* Pods-FEComps_Tests-FEComps.xcconfig */,
+				39C951BB1598F5D802397CFC /* Pods-FEComps_Tests-FEComps-Private.xcconfig */,
+				E43474AB23AF65407000F11A /* Pods-FEComps_Tests-FEComps-dummy.m */,
+				0D25A36137641A8C6257E30C /* Pods-FEComps_Tests-FEComps-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-FEComps_Example-FEComps";
 			sourceTree = "<group>";
 		};
-		BD2D01B1EBEE902B34924970 /* UIImage */ = {
+		0EAB39F5CDD09E3B7BA631CF /* Pods-FEComps_Example */ = {
 			isa = PBXGroup;
 			children = (
-				AC32862AACE1E6E3B2107386 /* UIImage+FETools.h */,
-				E0D080F157654F9D38212E63 /* UIImage+FETools.m */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		BE763E2070B7A091814E0328 /* Pods-FEComps_Example */ = {
-			isa = PBXGroup;
-			children = (
-				70620092C73472189DCFB5B8 /* Pods-FEComps_Example-acknowledgements.markdown */,
-				6D138B9B5AA1127C3C6B79F4 /* Pods-FEComps_Example-acknowledgements.plist */,
-				FE62039C45E4C253DB7B2179 /* Pods-FEComps_Example-dummy.m */,
-				D4B490070A57B480AA35C714 /* Pods-FEComps_Example-environment.h */,
-				8235DA83805F6FC4F7D9E2E2 /* Pods-FEComps_Example-resources.sh */,
-				21C56046F9BDD80B15AB9A66 /* Pods-FEComps_Example.debug.xcconfig */,
-				409418D21B18EF813C427D92 /* Pods-FEComps_Example.release.xcconfig */,
+				436C5DB4BBD793EE65AF96E8 /* Pods-FEComps_Example-acknowledgements.markdown */,
+				3B4CCF44EC1F4EC923C6F717 /* Pods-FEComps_Example-acknowledgements.plist */,
+				CE5EA704E257FE0EE8C990D1 /* Pods-FEComps_Example-dummy.m */,
+				8C07043BBC1E817F69CC65A0 /* Pods-FEComps_Example-environment.h */,
+				5C3F0CA6740923CC504197D8 /* Pods-FEComps_Example-resources.sh */,
+				F90A56DC83A94E3A88884B7D /* Pods-FEComps_Example.debug.xcconfig */,
+				1C23F3615F5D7B6E2D7813FC /* Pods-FEComps_Example.release.xcconfig */,
 			);
 			name = "Pods-FEComps_Example";
 			path = "Target Support Files/Pods-FEComps_Example";
 			sourceTree = "<group>";
 		};
-		EF3ACDE0CE0ED72DBD8F7803 /* UIView */ = {
+		2265E129D704014AF699EA73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CE11BE14646F3A19E3D2A16 /* UIView+FETools.h */,
-				9FB6E4F59B91C8F291B7B5CE /* UIView+FETools.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		EF779AA6451DBDE759F206FE /* FileManager */ = {
-			isa = PBXGroup;
-			children = (
-				6F646C253E335F5AA9855742 /* FEFileManager.h */,
-				A471418B1EAA813548214620 /* FEFileManager.m */,
-			);
-			path = FileManager;
-			sourceTree = "<group>";
-		};
-		F197BD57654735467EC8B879 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				318E5357547A51C878730748 /* iOS */,
+				74F607C064C13133F5E74744 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F253EEB9C92985728F337969 /* Targets Support Files */ = {
+		42D975F7C9C90FF7A146903F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE763E2070B7A091814E0328 /* Pods-FEComps_Example */,
-				6E3ED0953F24B357372E105B /* Pods-FEComps_Tests */,
+				0EAB39F5CDD09E3B7BA631CF /* Pods-FEComps_Example */,
+				CF213645149C11439C307C23 /* Pods-FEComps_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F8BB081D5F4186D52D85B469 /* Products */ = {
+		4B300A4546117BAB76457F18 = {
 			isa = PBXGroup;
 			children = (
-				C6FEBC71389E95C215299157 /* FEComps.bundle */,
-				C46038AE3FE30AF58E63BE9F /* FEComps.bundle */,
-				110348D384A08360E4202B11 /* libPods-FEComps_Example.a */,
-				795156586F5E88FCEB711FBB /* libPods-FEComps_Example-FEComps.a */,
-				6A1FDD1D999C8138F5B0C9B8 /* libPods-FEComps_Tests.a */,
-				BFFE234442932084670DB1D0 /* libPods-FEComps_Tests-FEComps.a */,
+				AE1E2D39D39515E0C4CA7D75 /* Podfile */,
+				99B5ACAB0EBB491082E3D980 /* Development Pods */,
+				2265E129D704014AF699EA73 /* Frameworks */,
+				B736A7B001659215CEB53DD4 /* Products */,
+				42D975F7C9C90FF7A146903F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4D14C0B8B239A9334DFD99D1 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				64F4D8DBB952FD4E45848638 /* UIImageView+FETools.h */,
+				3AB6B814471A05EF7F0EF681 /* UIImageView+FETools.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		72F311E27F70CD54A03D6CDD /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				B544DFDC32BD45E5D4247305 /* FEFileManager.h */,
+				DA965E2D92CDB22EDE67586D /* FEFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		74F607C064C13133F5E74744 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3469F0A2E7E4DAE627CCB39 /* Foundation.framework */,
+				FAB800CF8F55A8BC5A0725CB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		951C105AAE474B8E3A3843A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C095892A814E548850DEF523 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		99B5ACAB0EBB491082E3D980 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B37E6C5E86A250B1BB597F79 /* FEComps */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ADAC921E4D689150F11E167E /* CommonDefine */ = {
+			isa = PBXGroup;
+			children = (
+				5FAA2DF82B9224A558081D24 /* FEBlockDefine.h */,
+				DCAD6705E808B66EB75C0439 /* FEBlockDefine.m */,
+				17186AF4A0537A4963E1FA58 /* FEFunDefine.h */,
+			);
+			path = CommonDefine;
+			sourceTree = "<group>";
+		};
+		B37E6C5E86A250B1BB597F79 /* FEComps */ = {
+			isa = PBXGroup;
+			children = (
+				951C105AAE474B8E3A3843A1 /* Pod */,
+				00311B8EC0730DECF415786C /* Support Files */,
+			);
+			name = FEComps;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4066B409F2BFDB02F38D4EE /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				51E57197F9AA3A0EB3A6F90B /* NSSortDictionary.h */,
+				AA56935DF398F25BB657F8A6 /* NSSortDictionary.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		B736A7B001659215CEB53DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA2A03C52C117F81231A72 /* FEComps.bundle */,
+				68A07D568FB843C1F0BD577C /* FEComps.bundle */,
+				7EB5CBF117CC68964C022B33 /* libPods-FEComps_Example.a */,
+				25B997A8C92F7675DBDFCF7E /* libPods-FEComps_Example-FEComps.a */,
+				D3682C9C4E6AC0177FA88097 /* libPods-FEComps_Tests.a */,
+				70B4C56E9E9EDD357BDE140A /* libPods-FEComps_Tests-FEComps.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C095892A814E548850DEF523 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CD78E4E195763093B6DC5 /* FEHeader.h */,
+				EB8526F516249EB42AC3106D /* AESCrypt */,
+				ADAC921E4D689150F11E167E /* CommonDefine */,
+				B4066B409F2BFDB02F38D4EE /* DataModel */,
+				72F311E27F70CD54A03D6CDD /* FileManager */,
+				CC57CE3B7D10FA354747A683 /* UIAlertView */,
+				EC53CA8E6F9ED5BA354C0D87 /* UIImage */,
+				4D14C0B8B239A9334DFD99D1 /* UIImageView */,
+				EB5B761C55F387C083618A12 /* UIView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC57CE3B7D10FA354747A683 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBBCBD7174481651A38E55 /* NSObject+AlertView.h */,
+				710F606F66120D8F36B6B9B5 /* NSObject+AlertView.m */,
+			);
+			path = UIAlertView;
+			sourceTree = "<group>";
+		};
+		CF213645149C11439C307C23 /* Pods-FEComps_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5615DD3B75DCBFBFD6C813FD /* Pods-FEComps_Tests-acknowledgements.markdown */,
+				0AFF792F0AB97907D13EE69C /* Pods-FEComps_Tests-acknowledgements.plist */,
+				442C2D2584C7E25EEC80EC13 /* Pods-FEComps_Tests-dummy.m */,
+				DB8CDEFA4887A480AFA06250 /* Pods-FEComps_Tests-environment.h */,
+				11F72F78418CA715E2632C62 /* Pods-FEComps_Tests-resources.sh */,
+				4F3F47EDF0E00E84A0E32463 /* Pods-FEComps_Tests.debug.xcconfig */,
+				5E99DA8B76757A3FE46B0EBB /* Pods-FEComps_Tests.release.xcconfig */,
+			);
+			name = "Pods-FEComps_Tests";
+			path = "Target Support Files/Pods-FEComps_Tests";
+			sourceTree = "<group>";
+		};
+		EB5B761C55F387C083618A12 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				633FAEBB3FA76F7C838207B9 /* UIView+FETools.h */,
+				058CECECB83332FC8ED20CE5 /* UIView+FETools.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		EB8526F516249EB42AC3106D /* AESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA68584404FFE9FD5ED18A /* AESCrypt.h */,
+				5B2897C909E8FD0BDED3A086 /* AESCrypt.m */,
+				4B449625724170156D3DE305 /* NSData+Base64.h */,
+				4BF5BBA139339A2279929A12 /* NSData+Base64.m */,
+				C39D90DACF78D4BEEEE31A23 /* NSData+CommonCrypto.h */,
+				3C99B6B6152A171EA4186963 /* NSData+CommonCrypto.m */,
+				56633B304EB40869455AC9C2 /* NSString+Base64.h */,
+				01D9D54AD88AB488D9B18023 /* NSString+Base64.m */,
+			);
+			path = AESCrypt;
+			sourceTree = "<group>";
+		};
+		EC53CA8E6F9ED5BA354C0D87 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				BC748DD527B6F3B0F8E4FDC4 /* UIImage+FETools.h */,
+				4E898826ED9746B42F8312FA /* UIImage+FETools.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E824221EA5D344D63CC8498 /* Headers */ = {
+		14C52FDD1EF31ACC02F2BBFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7DFC702368E61DCE6545AA3 /* FEBlockDefine.h in Headers */,
-				F398E60BE95ADBA5D43D4B6C /* FEFileManager.h in Headers */,
-				B368A3CF881914E63F8EAD0B /* FEFunDefine.h in Headers */,
-				4A3555BB20C93ABDFECA1903 /* FEHeader.h in Headers */,
-				3BCD96D90E256D74707C372E /* NSObject+AlertView.h in Headers */,
-				67EA7AD89D87EC74D70BDD36 /* NSSortDictionary.h in Headers */,
-				10F51DD28C7F1B8DEBA7D3E2 /* UIImage+FETools.h in Headers */,
-				88E9899DF81A12DFC7EE3F02 /* UIImageView+FETools.h in Headers */,
-				C37B7783F714EE481C9EA41F /* UIView+FETools.h in Headers */,
+				B2AD8E848C105AD6185B20C0 /* AESCrypt.h in Headers */,
+				E15D5E2B3C53C69FBB9345E3 /* FEBlockDefine.h in Headers */,
+				2CC744C04963136CFAF29419 /* FEFileManager.h in Headers */,
+				65122FC184D6A9B0A532D253 /* FEFunDefine.h in Headers */,
+				D862323C86534294C1B14D4E /* FEHeader.h in Headers */,
+				6C4009121D6EA90DE1E4E646 /* NSData+Base64.h in Headers */,
+				D6136B868DB4162C1625151A /* NSData+CommonCrypto.h in Headers */,
+				C77B331E8A15057B5C7A5C24 /* NSObject+AlertView.h in Headers */,
+				936A85B6CC9168699FA43B44 /* NSSortDictionary.h in Headers */,
+				5C7946C44A909A63E5CC5916 /* NSString+Base64.h in Headers */,
+				EFA1DD847B97731DCFE57FDE /* UIImage+FETools.h in Headers */,
+				F277601CC6396711C479E252 /* UIImageView+FETools.h in Headers */,
+				BAEB09D071F954698B3A46E8 /* UIView+FETools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85A5A74F675B0ABFAFCB612F /* Headers */ = {
+		DBE6CDB798DF13A011878E2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60AAE9EDC42229017BD6A02C /* FEBlockDefine.h in Headers */,
-				893309992A260DDAFF5F5CEB /* FEFileManager.h in Headers */,
-				41A36AB5020E37EB5DE39BC4 /* FEFunDefine.h in Headers */,
-				0FBE9D6061610ECEAA4219D7 /* FEHeader.h in Headers */,
-				BD8E75418BA7956231E176ED /* NSObject+AlertView.h in Headers */,
-				1B474C1832C91FE43B968EF9 /* NSSortDictionary.h in Headers */,
-				BE843FCB07145EED54F8FAD9 /* UIImage+FETools.h in Headers */,
-				7D08AAE02EB24C5E0E526AF8 /* UIImageView+FETools.h in Headers */,
-				B370ACC5980D637059711018 /* UIView+FETools.h in Headers */,
+				28FB0FA84D6C18E956EF12F1 /* AESCrypt.h in Headers */,
+				72B8459478225D64B92184C7 /* FEBlockDefine.h in Headers */,
+				67F086DAFD8E62EB6F0073E2 /* FEFileManager.h in Headers */,
+				3C497CC4E2C4B2209F7026EC /* FEFunDefine.h in Headers */,
+				81D11323A950A609158AF42C /* FEHeader.h in Headers */,
+				99935E31D5E6F6F63E86C8E1 /* NSData+Base64.h in Headers */,
+				C7319DA8AC8F7D7C199C7A65 /* NSData+CommonCrypto.h in Headers */,
+				D22B87B73C614AFBED1B3855 /* NSObject+AlertView.h in Headers */,
+				F41066968499BCEC9290CA9C /* NSSortDictionary.h in Headers */,
+				C6C9F627E83D67A8134A6306 /* NSString+Base64.h in Headers */,
+				C6D8AFE5B84FFEC2C45D311B /* UIImage+FETools.h in Headers */,
+				D70A627FDB95FC4EF849C6A5 /* UIImageView+FETools.h in Headers */,
+				E5060D4A8C1E6017281408F6 /* UIView+FETools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		259A590202D27FB6E2C57FA2 /* Pods-FEComps_Example-FEComps-FEComps */ = {
+		0EFC8A13A2CEAE9B14B245CA /* Pods-FEComps_Tests-FEComps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D67C499207BD5F021BCC0165 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps-FEComps" */;
+			buildConfigurationList = D1FB350BD25F884174645957 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps" */;
 			buildPhases = (
-				B1D40112E83DD33112D00C50 /* Sources */,
-				B5399EC8F600F12535EBCC7E /* Frameworks */,
-				FFCE268C5EA462183E063D09 /* Resources */,
+				AE41219206910F1657D4C914 /* Sources */,
+				B389737DE987E6F5246AB3F7 /* Frameworks */,
+				DBE6CDB798DF13A011878E2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC19745E1409AC9153618E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Tests-FEComps";
+			productName = "Pods-FEComps_Tests-FEComps";
+			productReference = 70B4C56E9E9EDD357BDE140A /* libPods-FEComps_Tests-FEComps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		355F9104B5F5D687772CAFAF /* Pods-FEComps_Example-FEComps-FEComps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3550624BCD9549429230DD01 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps-FEComps" */;
+			buildPhases = (
+				BA300F30AE351EDF5287BA37 /* Sources */,
+				74E92067893B7F0B540B5303 /* Frameworks */,
+				AA50771CCBB015F25FE446CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -459,33 +503,16 @@
 			);
 			name = "Pods-FEComps_Example-FEComps-FEComps";
 			productName = "Pods-FEComps_Example-FEComps-FEComps";
-			productReference = C46038AE3FE30AF58E63BE9F /* FEComps.bundle */;
+			productReference = 68A07D568FB843C1F0BD577C /* FEComps.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		3C9DF9B8BFA438A41D524332 /* Pods-FEComps_Example */ = {
+		4120E8899E7109BD7E7FB7F2 /* Pods-FEComps_Tests-FEComps-FEComps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EABBD8540ABAB32AAC29EE66 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example" */;
+			buildConfigurationList = 87A20B984981FD3D2E28882C /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps-FEComps" */;
 			buildPhases = (
-				BF522AA6A8A2B4ED273AED83 /* Sources */,
-				2A3E07269626F16B43B705EF /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				29E864FE7CA63D077E5F394A /* PBXTargetDependency */,
-			);
-			name = "Pods-FEComps_Example";
-			productName = "Pods-FEComps_Example";
-			productReference = 110348D384A08360E4202B11 /* libPods-FEComps_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B0A288AE6CA9E5A938F9B05A /* Pods-FEComps_Tests-FEComps-FEComps */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 629D9CA748915992DE6885A8 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps-FEComps" */;
-			buildPhases = (
-				44DE604D170C1253D645CE32 /* Sources */,
-				FE5487D99E0B907C7EF31EC2 /* Frameworks */,
-				0755320EAE86D131CBF2027D /* Resources */,
+				7E4BA60AA8638798EF568AC2 /* Sources */,
+				6BBB18242FB56B03DDC31389 /* Frameworks */,
+				41C3B0BD85D4BE74734BFC3B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -493,101 +520,100 @@
 			);
 			name = "Pods-FEComps_Tests-FEComps-FEComps";
 			productName = "Pods-FEComps_Tests-FEComps-FEComps";
-			productReference = C6FEBC71389E95C215299157 /* FEComps.bundle */;
+			productReference = 6DEA2A03C52C117F81231A72 /* FEComps.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		B38D7F4EAA3D50BD961E98DF /* Pods-FEComps_Tests-FEComps */ = {
+		73CAC86A4A15C2A1AFD22C19 /* Pods-FEComps_Example-FEComps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30838907862560956134A552 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps" */;
+			buildConfigurationList = 1946C6C516E507C43646CB34 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps" */;
 			buildPhases = (
-				5A8E68155E2AB7761D8DE588 /* Sources */,
-				5B95797514F4D784E1EFD0A6 /* Frameworks */,
-				85A5A74F675B0ABFAFCB612F /* Headers */,
+				40EA3BC6DA9E148232C15EA4 /* Sources */,
+				B7FA87541ACCC5434E9795C1 /* Frameworks */,
+				14C52FDD1EF31ACC02F2BBFF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AFD5AAFC3104429625BA9867 /* PBXTargetDependency */,
-			);
-			name = "Pods-FEComps_Tests-FEComps";
-			productName = "Pods-FEComps_Tests-FEComps";
-			productReference = BFFE234442932084670DB1D0 /* libPods-FEComps_Tests-FEComps.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D10F1C2DBAAB966DBDE98DB9 /* Pods-FEComps_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8CB68549634FA2625A8AA028 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests" */;
-			buildPhases = (
-				62CA151A4E678EAD14C94CCD /* Sources */,
-				812C2ED0913A751D67AB4AF3 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09839F4890C629A5E5C06B0C /* PBXTargetDependency */,
-			);
-			name = "Pods-FEComps_Tests";
-			productName = "Pods-FEComps_Tests";
-			productReference = 6A1FDD1D999C8138F5B0C9B8 /* libPods-FEComps_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FD8CA3F0F8C94F5E63672E28 /* Pods-FEComps_Example-FEComps */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 546778DA2AA8AB4F2398FF24 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps" */;
-			buildPhases = (
-				E21F1744F2BE7233FC33F9D8 /* Sources */,
-				8023E9E17378C063120357E1 /* Frameworks */,
-				1E824221EA5D344D63CC8498 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57C2690C9A81C39657DFD78D /* PBXTargetDependency */,
+				EF7BD5EA62A4E9D09BF9A8E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-FEComps_Example-FEComps";
 			productName = "Pods-FEComps_Example-FEComps";
-			productReference = 795156586F5E88FCEB711FBB /* libPods-FEComps_Example-FEComps.a */;
+			productReference = 25B997A8C92F7675DBDFCF7E /* libPods-FEComps_Example-FEComps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D39F33CFDAF6386BEDBFCF05 /* Pods-FEComps_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A707675068FC6E86C2E1CF /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example" */;
+			buildPhases = (
+				178B08BB4AA5FF2B00CA9AE2 /* Sources */,
+				11F7B241A43A6489375070C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04B417DA194B99E38F190E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Example";
+			productName = "Pods-FEComps_Example";
+			productReference = 7EB5CBF117CC68964C022B33 /* libPods-FEComps_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD587BC3E46B741ECF0ED7E9 /* Pods-FEComps_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F599C2AC335D004C88FF6CEB /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests" */;
+			buildPhases = (
+				BD0E3EADEB5020BC4298DB67 /* Sources */,
+				A82D0992CE52DEA99F9AC92E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E828E2C23B2307A8E3ABB88 /* PBXTargetDependency */,
+			);
+			name = "Pods-FEComps_Tests";
+			productName = "Pods-FEComps_Tests";
+			productReference = D3682C9C4E6AC0177FA88097 /* libPods-FEComps_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FFA22EEBB80ECB043D5D4FB7 /* Project object */ = {
+		6EDA3C9D2D9FAEE0B0EFF76F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = D2AEF85F861CA66972D3A256 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 32439825371AABB310278BEC /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 923AF2645D0E8A06AF2D017E;
-			productRefGroup = F8BB081D5F4186D52D85B469 /* Products */;
+			mainGroup = 4B300A4546117BAB76457F18;
+			productRefGroup = B736A7B001659215CEB53DD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C9DF9B8BFA438A41D524332 /* Pods-FEComps_Example */,
-				FD8CA3F0F8C94F5E63672E28 /* Pods-FEComps_Example-FEComps */,
-				259A590202D27FB6E2C57FA2 /* Pods-FEComps_Example-FEComps-FEComps */,
-				D10F1C2DBAAB966DBDE98DB9 /* Pods-FEComps_Tests */,
-				B38D7F4EAA3D50BD961E98DF /* Pods-FEComps_Tests-FEComps */,
-				B0A288AE6CA9E5A938F9B05A /* Pods-FEComps_Tests-FEComps-FEComps */,
+				D39F33CFDAF6386BEDBFCF05 /* Pods-FEComps_Example */,
+				73CAC86A4A15C2A1AFD22C19 /* Pods-FEComps_Example-FEComps */,
+				355F9104B5F5D687772CAFAF /* Pods-FEComps_Example-FEComps-FEComps */,
+				DD587BC3E46B741ECF0ED7E9 /* Pods-FEComps_Tests */,
+				0EFC8A13A2CEAE9B14B245CA /* Pods-FEComps_Tests-FEComps */,
+				4120E8899E7109BD7E7FB7F2 /* Pods-FEComps_Tests-FEComps-FEComps */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0755320EAE86D131CBF2027D /* Resources */ = {
+		41C3B0BD85D4BE74734BFC3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFCE268C5EA462183E063D09 /* Resources */ = {
+		AA50771CCBB015F25FE446CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -597,153 +623,107 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44DE604D170C1253D645CE32 /* Sources */ = {
+		178B08BB4AA5FF2B00CA9AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A725B9E2B1813F13A091069D /* Pods-FEComps_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA3BC6DA9E148232C15EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54416A210733568B0C73821B /* AESCrypt.m in Sources */,
+				AFE993B4B134A7EF401EF9A8 /* FEBlockDefine.m in Sources */,
+				88748C8238FDABB74D69D62F /* FEFileManager.m in Sources */,
+				21599464BE8D74438836C309 /* NSData+Base64.m in Sources */,
+				3B6A57C866EACCB627AE9B9A /* NSData+CommonCrypto.m in Sources */,
+				ED8C123F2D6F950301E00AD8 /* NSObject+AlertView.m in Sources */,
+				AE021DC8C353E970BE50F32E /* NSSortDictionary.m in Sources */,
+				EE0382E21917321C45C36884 /* NSString+Base64.m in Sources */,
+				9CDC2BB518762EE1BEC10C05 /* Pods-FEComps_Example-FEComps-dummy.m in Sources */,
+				9D1014B02E61B57C4CCD8F74 /* UIImage+FETools.m in Sources */,
+				96A72C99BB163D13D9F1B014 /* UIImageView+FETools.m in Sources */,
+				BF748B7E260BA496091E0AFC /* UIView+FETools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4BA60AA8638798EF568AC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A8E68155E2AB7761D8DE588 /* Sources */ = {
+		AE41219206910F1657D4C914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BB241E9494BB639573961F /* FEBlockDefine.m in Sources */,
-				04BFDE2F14840FB711D89C15 /* FEFileManager.m in Sources */,
-				2380766CF7E24433CCCF63A7 /* NSObject+AlertView.m in Sources */,
-				105FAABB5C3A854E783D17D7 /* NSSortDictionary.m in Sources */,
-				4AE9A6DF4042CC85F41ACB8B /* Pods-FEComps_Tests-FEComps-dummy.m in Sources */,
-				C1DD831F73A30D599A570541 /* UIImage+FETools.m in Sources */,
-				81CCC61344C096BE8FC845D6 /* UIImageView+FETools.m in Sources */,
-				3D7E89D3079D890945C0EDAB /* UIView+FETools.m in Sources */,
+				2F5FE4912E07A28EB90F8379 /* AESCrypt.m in Sources */,
+				2FAEAE1DF591B81468BB67BD /* FEBlockDefine.m in Sources */,
+				414C25D67CC60AF34E23620E /* FEFileManager.m in Sources */,
+				AEA9ABDA717FEA9DE8192944 /* NSData+Base64.m in Sources */,
+				DD36671460F5CEB96FFBAD9E /* NSData+CommonCrypto.m in Sources */,
+				A1A1971891DA25EF0FB52E03 /* NSObject+AlertView.m in Sources */,
+				CFB78B8BC8306B2FBCFB881C /* NSSortDictionary.m in Sources */,
+				F1D49B37E145E7B20997A3A8 /* NSString+Base64.m in Sources */,
+				A2DF939A97B85D436AB78FEF /* Pods-FEComps_Tests-FEComps-dummy.m in Sources */,
+				2D93823A28111C455D60F622 /* UIImage+FETools.m in Sources */,
+				6ACE49A071E719561569FAE5 /* UIImageView+FETools.m in Sources */,
+				01F7243A49F0F6048A63D3B6 /* UIView+FETools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62CA151A4E678EAD14C94CCD /* Sources */ = {
+		BA300F30AE351EDF5287BA37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A9DEA0278A22144FE0F67F /* Pods-FEComps_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1D40112E83DD33112D00C50 /* Sources */ = {
+		BD0E3EADEB5020BC4298DB67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB2DF661B93FD0B000DE8AA /* NSString+Base64.m in Sources */,
-				0BB2DF631B93FD0B000DE8AA /* AESCrypt.m in Sources */,
-				0BB2DF641B93FD0B000DE8AA /* NSData+Base64.m in Sources */,
-				0BB2DF651B93FD0B000DE8AA /* NSData+CommonCrypto.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF522AA6A8A2B4ED273AED83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7618EAC2F632361163CC9A /* Pods-FEComps_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E21F1744F2BE7233FC33F9D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC26B66505ACEFD701C9DA55 /* FEBlockDefine.m in Sources */,
-				E3695607CB3BC481E0C71CD3 /* FEFileManager.m in Sources */,
-				7C7BC9480D4D7742ADBCB7EB /* NSObject+AlertView.m in Sources */,
-				E6222F87C9821FBED31D0CB3 /* NSSortDictionary.m in Sources */,
-				76D2803A18362446B0BE5A2A /* Pods-FEComps_Example-FEComps-dummy.m in Sources */,
-				5B8711EE02E11F254EEEE8D0 /* UIImage+FETools.m in Sources */,
-				35BDB00752B854AA611443EA /* UIImageView+FETools.m in Sources */,
-				CC3F253F30A103129A90B1BC /* UIView+FETools.m in Sources */,
+				759FECF1006B8DCA6F01CDD2 /* Pods-FEComps_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09839F4890C629A5E5C06B0C /* PBXTargetDependency */ = {
+		2E828E2C23B2307A8E3ABB88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FEComps_Tests-FEComps";
-			target = B38D7F4EAA3D50BD961E98DF /* Pods-FEComps_Tests-FEComps */;
-			targetProxy = 6100F5A7D9936FE64D73ED84 /* PBXContainerItemProxy */;
+			target = 0EFC8A13A2CEAE9B14B245CA /* Pods-FEComps_Tests-FEComps */;
+			targetProxy = 90147D1D24ADD1D9195DFFDE /* PBXContainerItemProxy */;
 		};
-		29E864FE7CA63D077E5F394A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FEComps_Example-FEComps";
-			target = FD8CA3F0F8C94F5E63672E28 /* Pods-FEComps_Example-FEComps */;
-			targetProxy = 911E4AEBE8C76D06FE4EBD77 /* PBXContainerItemProxy */;
-		};
-		57C2690C9A81C39657DFD78D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FEComps_Example-FEComps-FEComps";
-			target = 259A590202D27FB6E2C57FA2 /* Pods-FEComps_Example-FEComps-FEComps */;
-			targetProxy = 8CCA8390F36C24B307BF0F3D /* PBXContainerItemProxy */;
-		};
-		AFD5AAFC3104429625BA9867 /* PBXTargetDependency */ = {
+		9AC19745E1409AC9153618E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FEComps_Tests-FEComps-FEComps";
-			target = B0A288AE6CA9E5A938F9B05A /* Pods-FEComps_Tests-FEComps-FEComps */;
-			targetProxy = 651ECB5A9DAC391606770D88 /* PBXContainerItemProxy */;
+			target = 4120E8899E7109BD7E7FB7F2 /* Pods-FEComps_Tests-FEComps-FEComps */;
+			targetProxy = A920BAD1130638737319BC1C /* PBXContainerItemProxy */;
+		};
+		EF7BD5EA62A4E9D09BF9A8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FEComps_Example-FEComps-FEComps";
+			target = 355F9104B5F5D687772CAFAF /* Pods-FEComps_Example-FEComps-FEComps */;
+			targetProxy = 00CBDC2E2F30E1BE5DF32787 /* PBXContainerItemProxy */;
+		};
+		F04B417DA194B99E38F190E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FEComps_Example-FEComps";
+			target = 73CAC86A4A15C2A1AFD22C19 /* Pods-FEComps_Example-FEComps */;
+			targetProxy = F1C12321BBC91F6E83C810AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1224DB3C209458D6EC3A26B0 /* Release */ = {
+		0ED93FDB2F91FC10DD59E44B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Example-FEComps/Pods-FEComps_Example-FEComps-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		28ED28171FE0D7E17FFA16C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		44FE27BE1F0E852A3529AA3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 409418D21B18EF813C427D92 /* Pods-FEComps_Example.release.xcconfig */;
+			baseConfigurationReference = 5E99DA8B76757A3FE46B0EBB /* Pods-FEComps_Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -757,63 +737,23 @@
 			};
 			name = Release;
 		};
-		4A5502BA0DFF4879F13C3130 /* Debug */ = {
+		12D3AFDCE2835D14806CACE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			baseConfigurationReference = 39C951BB1598F5D802397CFC /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Example-FEComps/Pods-FEComps_Example-FEComps-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		64406B882003242FAFB36B3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54B35B6525CDAB7551AD9CD6 /* Pods-FEComps_Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		6E58EA27A1AB43DBCC22EA82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = FEComps;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		8A401140E84E26ADE0DA5C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = FEComps;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8F367E8A43C5D4268EE5152F /* Debug */ = {
+		2209CEAB7C5A5504B6CDF5F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -852,9 +792,41 @@
 			};
 			name = Debug;
 		};
-		92A8B30DA81066896710F2CE /* Debug */ = {
+		3165586FD2FFC6EE4E0F358A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			baseConfigurationReference = DFEF0EDF2F9D070FA50EA5DA /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Example-FEComps/Pods-FEComps_Example-FEComps-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3DB10A738A46533D59F93211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C23F3615F5D7B6E2D7813FC /* Pods-FEComps_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		409057B2B90B9976F021BD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C951BB1598F5D802397CFC /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch";
@@ -868,12 +840,98 @@
 			};
 			name = Debug;
 		};
-		9D14229C517FCA14E4E78329 /* Release */ = {
+		42FDBD644B8404A3E6E72648 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91AC69A022CE14326907B62 /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			baseConfigurationReference = 39C951BB1598F5D802397CFC /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Tests-FEComps/Pods-FEComps_Tests-FEComps-prefix.pch";
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4AF2C36473311BD9A076470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEF0EDF2F9D070FA50EA5DA /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4D4C9618B698516F3E97991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C951BB1598F5D802397CFC /* Pods-FEComps_Tests-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		65015D943B1A27116A0576AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3F47EDF0E00E84A0E32463 /* Pods-FEComps_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		87EEF236AC4D301A71019E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA53D4704737288564BB0732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEF0EDF2F9D070FA50EA5DA /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FEComps_Example-FEComps/Pods-FEComps_Example-FEComps-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -884,9 +942,21 @@
 			};
 			name = Release;
 		};
-		B444B0E5487D58E4F733854C /* Debug */ = {
+		DE621D2D2536DECFD3D1CB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C56046F9BDD80B15AB9A66 /* Pods-FEComps_Example.debug.xcconfig */;
+			baseConfigurationReference = DFEF0EDF2F9D070FA50EA5DA /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FEComps;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F7F03D5B43AE0EFBFF448905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90A56DC83A94E3A88884B7D /* Pods-FEComps_Example.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -899,114 +969,74 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		C4FCAB66543E02DB2CCA61CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D3352C4737559F75829C6B1 /* Pods-FEComps_Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D66D63F67402534E2BF435BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = FEComps;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F534B94F3223B418477B7343 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82EEF45F1F40403520F7DA31 /* Pods-FEComps_Example-FEComps-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = FEComps;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30838907862560956134A552 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps" */ = {
+		1946C6C516E507C43646CB34 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92A8B30DA81066896710F2CE /* Debug */,
-				9D14229C517FCA14E4E78329 /* Release */,
+				3165586FD2FFC6EE4E0F358A /* Debug */,
+				AA53D4704737288564BB0732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		546778DA2AA8AB4F2398FF24 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps" */ = {
+		32439825371AABB310278BEC /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A5502BA0DFF4879F13C3130 /* Debug */,
-				1224DB3C209458D6EC3A26B0 /* Release */,
+				2209CEAB7C5A5504B6CDF5F3 /* Debug */,
+				87EEF236AC4D301A71019E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		629D9CA748915992DE6885A8 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps-FEComps" */ = {
+		3550624BCD9549429230DD01 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps-FEComps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A401140E84E26ADE0DA5C4B /* Debug */,
-				6E58EA27A1AB43DBCC22EA82 /* Release */,
+				DE621D2D2536DECFD3D1CB52 /* Debug */,
+				4AF2C36473311BD9A076470E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CB68549634FA2625A8AA028 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests" */ = {
+		87A20B984981FD3D2E28882C /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps-FEComps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4FCAB66543E02DB2CCA61CA /* Debug */,
-				64406B882003242FAFB36B3A /* Release */,
+				4D4C9618B698516F3E97991C /* Debug */,
+				42FDBD644B8404A3E6E72648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2AEF85F861CA66972D3A256 /* Build configuration list for PBXProject "Pods" */ = {
+		D1FB350BD25F884174645957 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests-FEComps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F367E8A43C5D4268EE5152F /* Debug */,
-				28ED28171FE0D7E17FFA16C9 /* Release */,
+				409057B2B90B9976F021BD32 /* Debug */,
+				12D3AFDCE2835D14806CACE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D67C499207BD5F021BCC0165 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example-FEComps-FEComps" */ = {
+		D7A707675068FC6E86C2E1CF /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D66D63F67402534E2BF435BA /* Debug */,
-				F534B94F3223B418477B7343 /* Release */,
+				F7F03D5B43AE0EFBFF448905 /* Debug */,
+				3DB10A738A46533D59F93211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EABBD8540ABAB32AAC29EE66 /* Build configuration list for PBXNativeTarget "Pods-FEComps_Example" */ = {
+		F599C2AC335D004C88FF6CEB /* Build configuration list for PBXNativeTarget "Pods-FEComps_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B444B0E5487D58E4F733854C /* Debug */,
-				44FE27BE1F0E852A3529AA3F /* Release */,
+				65015D943B1A27116A0576AE /* Debug */,
+				0ED93FDB2F91FC10DD59E44B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FFA22EEBB80ECB043D5D4FB7 /* Project object */;
+	rootObject = 6EDA3C9D2D9FAEE0B0EFF76F /* Project object */;
 }

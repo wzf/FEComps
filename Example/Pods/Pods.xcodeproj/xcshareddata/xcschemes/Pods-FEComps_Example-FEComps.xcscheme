@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD8CA3F0F8C94F5E63672E28"
+               BlueprintIdentifier = "73CAC86A4A15C2A1AFD22C19"
                BuildableName = "libPods-FEComps_Example-FEComps.a"
                BlueprintName = "Pods-FEComps_Example-FEComps"
                ReferencedContainer = "container:Pods.xcodeproj">

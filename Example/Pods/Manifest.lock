@@ -1,5 +1,5 @@
 PODS:
-  - FEComps (0.1.0)
+  - FEComps (0.0.1)
 
 DEPENDENCIES:
   - FEComps (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FEComps: 6001e0988ecd43787af5feee533c4065eaed7501
+  FEComps: 077fa95dc587906493b8cb6a39ab9bacde8cec79
 
 COCOAPODS: 0.37.2
