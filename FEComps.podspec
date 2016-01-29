@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "FEComps"
   s.version          = "0.0.2"
-  s.summary          = "A short description of FEComps."
+  s.summary          = "FE工具库"
   s.description      = <<-DESC
                        把平时常用的工具、Category扩展、Log日志方式做了一个汇总，希望可以在APP开发中提供一个快速的配置跟应用
                        DESC
