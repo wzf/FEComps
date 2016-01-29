@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '05ADEF7EA6EC86DB7C374839'
-               BlueprintName = 'Pods-FEComps_Tests'
+               BlueprintIdentifier = '1F0487C04D490814B3A84B26'
+               BlueprintName = 'FEComps-FEComps'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-FEComps_Tests.a'>
+               BuildableName = 'FEComps.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

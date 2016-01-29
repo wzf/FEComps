@@ -20,6 +20,7 @@
 
 #import "NSSortDictionary.h"//排序的dictionary
 #import "FEFileManager.h"   //NSFileManager的工具函数
+#import "FEPlistManager.h"  //Plist的工具函数
 
 #import "AESCrypt.h"
 
