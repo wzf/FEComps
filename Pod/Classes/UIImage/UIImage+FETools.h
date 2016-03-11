@@ -36,6 +36,12 @@ UIImage * UIImageNamedInAssets(NSString *imgName);
 - (UIImage *)imageFitToSize:(CGSize)size;
 
 /**
+ * 裁剪图片
+ */
++ (UIImage *)imageWithContentImage:(UIImage *)img clipRect:(CGRect)rect;
+- (UIImage *)imageClipToRect:(CGRect)rect;
+
+/**
  * 圆角化图片
  */
 + (UIImage *)imageWithContentImage:(UIImage *)img roundCorner:(CGFloat)radius;

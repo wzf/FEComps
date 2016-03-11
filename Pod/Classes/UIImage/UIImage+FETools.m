@@ -93,6 +93,23 @@ UIImage * UIImageNamedInAssets(NSString *imgName) {
 }
 
 /**
+ * 裁剪图片
+ */
++ (UIImage *)imageWithContentImage:(UIImage *)img clipRect:(CGRect)rect;
+{
+    // 将layer绘制成图片
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, [UIScreen mainScreen].scale);
+    [img drawInRect:CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height)];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+- (UIImage *)imageClipToRect:(CGRect)rect;
+{
+    return [UIImage imageWithContentImage:self clipRect:rect];
+}
+
+/**
  * 圆角化图片
  */
 + (UIImage *)imageWithContentImage:(UIImage *)img roundCorner:(CGFloat)radius;
